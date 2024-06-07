@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('bg.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h1 {
+            color: rgb(247, 155, 196);
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: rgb(247, 155, 196);
+        }
+        p, ul {
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="bounce">Services</h1>
+        <div class="services">
+            <div class="service">
+                <span class="icon">&#128075;</span>
+                <h2>Managerial Procurement</h2>
+                <p>Managerial Procurement service involves several tasks such as:</p>
+                <ul>
+                    <li>Submitting requests for procurement,</li>
+                    <li>Managing bids and offers,</li>
+                    <li>Coordinating procurement processes, and</li>
+                    <li>Giving approval for procurement needed for the project.</li>
+                </ul>
+            </div>
+
+            <div class="service">
+                <span class="icon">&#128421;</span>
+                <h2>Vendor Management</h2>
+                <p>Vendor Management service focuses on tasks for vendors, such as:</p>
+                <ul>
+                    <li>Accepting requests for quotation (RFQ),</li>
+                    <li>Sending bids, and</li>
+                    <li>Following the status of their bids.</li>
+                </ul>
+            </div>
+
+            <div class="service">
+                <span class="icon">&#10003;</span>
+                <h2>Project Management</h2>
+                <p>Project Management service is responsible for overseeing project requirements, such as:</p>
+                <ul>
+                    <li>Ensuring that procurement is conducted according to the project needs,</li>
+                    <li>Coordinating with the vendor to fulfill project requirements, and</li>
+                    <li>Evaluating and closing the procurement process.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

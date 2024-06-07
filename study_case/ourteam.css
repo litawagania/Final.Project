@@ -1,0 +1,5 @@
+.team-member img {
+    width: 50%; /* Change the width to 50% */
+    height: auto;
+    border-radius: 50%;
+}
